@@ -3,8 +3,6 @@ package org.example;
 import org.example.race.Race;
 import org.example.squad.Squad;
 import org.example.unit.Unit;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -16,8 +14,7 @@ public class Main {
          Main main = new Main();
          Squad squad = new Squad(main.randomRace(Race.RaceType.good));
          Squad squad2 = new Squad(main.randomRace(Race.RaceType.bad));
-        // Unit firstUnit = squad.getRandomUnit();
-         //Unit secondUnit = squad2.getRandomUnit();
+
          main.squads.add(squad);
          main.squads.add(squad2);
          main.doAttack();

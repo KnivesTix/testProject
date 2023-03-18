@@ -4,7 +4,6 @@ import org.example.action.Damage;
 import org.example.action.Improvement;
 
 public class Elves extends Race{
-
    public Elves(){
       warior.setActions(new Damage(15));
       wizard.setActions(new Improvement(),new Damage(10));
