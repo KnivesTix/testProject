@@ -1,11 +1,8 @@
-import org.example.race.Elves;
 import org.example.race.Orc;
 import org.example.squad.Squad;
 import org.example.unit.Unit;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;

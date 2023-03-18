@@ -2,12 +2,7 @@ package org.example.race;
 
 import org.example.unit.Unit;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
 public class Race {
-    private final List<Race> race = new ArrayList<>();
 
     private String name;
 

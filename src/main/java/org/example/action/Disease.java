@@ -17,7 +17,6 @@ public class Disease implements Action {
         return 0.5f;
     }
 
-
     public void execute(Unit unit){
     }
     public Disease(){

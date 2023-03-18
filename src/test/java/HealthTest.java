@@ -5,8 +5,6 @@ import org.example.squad.Squad;
 import org.example.unit.Unit;
 import org.junit.jupiter.api.Test;
 
-import java.util.LinkedList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -26,7 +24,5 @@ public class HealthTest {
         firstUnit.executeAction(secondUnit);
 
         assertEquals(health - dmg.getDamage(), secondUnit.getHealth());
-
-         // assertEquals(total_count, getUnitCount(orc));
     }
 }

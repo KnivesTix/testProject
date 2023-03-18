@@ -36,11 +36,6 @@ public class Squad {
     public Unit getActiveUnit() {
         return getRandomUnit();
     }
-    public String getRaceName() {
-        return this.race.getName();
-    }
-
-
     public Squad(){}
     public Unit getRandomUnit(){
         return unit.get(new Random().nextInt(unit.size()));
